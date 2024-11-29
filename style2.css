@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+#logo{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    padding: 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    transition-duration: 0.7s;
+}
+.text{
+    color: white;
+    margin-left: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.text h2{
+    font-size: 3em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.text span{
+    font-size: 2em;
+}
+.text a{
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    font-weight: 500;
+    padding: 8px 20px;
+    text-transform: uppercase;
+}
+.text a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.9s;
+}
+#big-picture{
+    margin-left: 900px;
+    position: absolute;
+    margin-bottom: 150px;
+}
+.photo{
+    position: absolute;
+    left: 35%;
+    display: flex;
+    list-style-type: none;
+    bottom: 2px;
+    
+}
+.photo li img
+{
+    display: inline-block;
+    max-width: 60px;
+    margin: 10px;
+}
+#pepsi1:hover{
+    transform: translateY(-30px);
+    transition-duration: 0.7s;
+}
+#pepsi2:hover{
+    transform: translateY(-30px);
+    transition-duration: 0.7s;
+}
+#pepsi3:hover{
+    transform: translateY(-30px);
+    transition-duration: 0.7s;
+}
